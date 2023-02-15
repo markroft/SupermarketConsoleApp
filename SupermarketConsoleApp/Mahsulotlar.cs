@@ -10,10 +10,10 @@ namespace SupermarketConsoleApp
     {
         public int id { get; set; }
 
-        public string nomi { get; set; }
+        public string? nomi { get; set; }
 
         public int narxi { get; set; }
 
-        public string yaroqlilikMuddati { get; set;  }
+        public string? yaroqlilikMuddati { get; set;  }
     }
 }
