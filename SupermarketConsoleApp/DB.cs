@@ -13,6 +13,7 @@ namespace SupermarketConsoleApp
 
         public DbSet<Ishchilar> Ishchilar { get; set; }
 
+        public DbSet<Xaridlar> Xaridlar { get; set; }
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder option)
