@@ -18,7 +18,7 @@ namespace SupermarketConsoleApp
 
         protected override void OnConfiguring(DbContextOptionsBuilder option)
         {
-            option.UseSqlServer("server = (localdb)\\mssqllocaldb; database=SupermarketDB; Trusted_Connection = true;");
+            option.UseSqlServer("server = (localdb)\\mssqllocaldb; database=SupermarketDB8; Trusted_Connection = true;");
         }
     }
 }
