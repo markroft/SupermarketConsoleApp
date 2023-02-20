@@ -14,6 +14,7 @@ namespace SupermarketConsoleApp
         public DbSet<Ishchilar> Ishchilar { get; set; }
 
 
+
         protected override void OnConfiguring(DbContextOptionsBuilder option)
         {
             option.UseSqlServer("server = (localdb)\\mssqllocaldb; database=SupermarketDB; Trusted_Connection = true;");
